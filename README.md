@@ -1,6 +1,10 @@
 # inkscape-cli
 
-inkscape-cli is a Node.js binding for Inkscape's command line interface.
+inkscape-cli is a Node.js binding for Inkscape's command line interface. **You need to have Inkscape installed to your computer**. Furthermore, inkscape-cli is designed for *Windows*. Other platforms may not work well.
+
+Github: https://github.com/The3DSquare/inkscape-cli
+
+NPM: https://www.npmjs.com/package/inkscape-cli
 
 #### Quick start:
 Import the library into your code and start coding!

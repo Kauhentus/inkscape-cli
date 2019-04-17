@@ -1,8 +1,12 @@
 {
   "name": "inkscape-cli",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Bindings for Inkscape's command line interface",
   "main": "index.js",
   "author": "Joshua Yang - The3DSquare",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The3DSquare/inkscape-cli.git"
+  }
 }
