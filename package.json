@@ -1,0 +1,8 @@
+{
+  "name": "inkscape-cli",
+  "version": "1.0.0",
+  "description": "Bindings for Inkscape's command line interface",
+  "main": "index.js",
+  "author": "Joshua Yang - The3DSquare",
+  "license": "ISC"
+}
