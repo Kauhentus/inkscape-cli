@@ -12,12 +12,12 @@ Import the library into your code and start coding!
 ```js
 const I = require('inkscape-cli');
 
-const save_as_pdf = I.generate_command([
+const save_as_pdf = I.generateCommand([
     I.O.file('.\\File.svg'),
     I.O.export_area_page,
     I.O.export_pdf('.\\File.pdf')
 ]);
-I.run_command(save_as_pdf);
+I.runCommand(save_as_pdf);
 ```
 
 # Documentation
@@ -30,7 +30,7 @@ param | type | description
 **path** | `String` | Path to Inkscape's folder
 
 ```js
-I.inkscape_folder("C:\\Program Files\\Inkscape\\");
+I.inkscapeFolder("C:\\Program Files\\Inkscape\\");
 ```
 - Path must use `\\` instead of `/`
 - It's ok to leave spaces in the path
